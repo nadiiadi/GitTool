@@ -1,0 +1,44 @@
+  216  cd HW.Folder
+  217  history -c && rm ~/.bash_history
+  218  ls -la
+  219  history man
+  220  sudo history -c
+  221  history -c
+  222  echo $SHELL
+  223  git config --global user.name "Nadiia Prosiatnikova"
+  224  git config --global user.email nadezhdaprosiatnikova@gmail.com
+  225  git clone https://github.com/nadiiadi/HW_10.git
+  226  cd HW_10
+  227  touch text_ignore.txt
+  228  nano .gitignore
+  229  nano .gitignore
+  230  git status
+  231  git status
+  232  git status
+  233  git add .
+  234  git status
+  235  git commit -m "text_ignore.txt file added to .gitignore"
+  236  touch main_test.txt
+  237  git add .
+  238  git commit -m "main_test.txt file added to HW_10 folder"
+  239  git checkout -b develop
+  240  git branch
+  241  touch develop_test.txt
+  242  git add .
+  243  git status
+  244  git commit -m "develop_test.txt file added to HW_10 folder"
+  245  nano develop_test.txt
+  246  git status
+  247  git add .
+  248  git status
+  249  git commit -m "develop_test.txt was updated"
+  250  git status
+  251  git branch
+  252  git checkout main
+  253  git branch
+  254  git merge develop
+  255  git status
+  256  git log
+  257  git log --merges
+  258  git branch --merged
+  259  git branch
